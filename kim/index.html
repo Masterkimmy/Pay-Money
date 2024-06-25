@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pay-money</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+  <main class="overflow-hidden">
+    <nav>
+        <img class="logo lg:items-center" src="../src/images/1532175849_logo.png" alt="">
+       <div class="home absolute right-0 max-sm:right-0 max-sm:b-0 -top-full  left-0 bg-purple-950 flex flex-col p-5 gap-y-14 md:static md:bg-transparent md:flex-row md:items-center transition-all duration-1000">
+            <ul class="ul flex flex-col gap-y-8 md:flex-row">
+                <li class="me">Home</li>
+                <li class="too">Crypto Exchange</li>
+                <li class="pol">Privacy Policy</li>
+            </ul>
+            <div onclick="changeTheme()">
+                <img class="sun w-8 h-8" src="../src/images/sun2.png" alt="">
+            </div>
+            <div class="btn">
+                <button class="login">Login</button>
+                <button class="reg">Register</button>
+            </div>
+        </div>
+        <span class="md:hidden">
+            <button class="fas fa-bars-staggered text-white" onclick="toogle()"></button>
+        </span>
+        <span class="hidden max-sm:block">
+         
+        </span>
+    </nav>
+    <section class="sec">
+         <div>
+            <div class="safest">
+                <h3 class="most">THE SAFEST & MOST RELIABE</h3>
+                 <div>
+                    <h1 class="one">Money</h1>
+                    <h1 class="tran">Transaction</h1>
+                    <h1 class="plant">plantform</h1>
+                 </div>
+             <div class="orbit">
+                        <p class="send">Send,receive,depoist,request,Invest and Exchange money globally in mutiple currencies easily,quickly and safely with great rate and low fees </p>
+                        <p class="get">Let's Get Started</p>
+                    <div class="invest">
+                        <h4 class="account">Create an Account</h4>
+                        <p class="entity"> <span class="hover:rotate-45">&#8599;</span>
+                    </p>
+                    </div>
+             </div>
+          </div>
+        </section>
+        <section class="payment">
+            <div class="menu">
+                    <div class="around">
+                        <div>
+                            <h3 class="yo">WHAT YOU GET</h3>   
+                            <h1 class="olu">ALL AROUND PAYMENT SOLUTIONS</h1>
+                            <img src="../src/images/icons8-minus-64.png" alt="">
+                        </div>
+                       <div>
+                           <div class="easy">
+                                    <h2 class="fast">The Secure, Easiest And Fastes Money Transfer.</h2>
+                                    <h2 class="pos">Send, receive, deposit, request, invest and exchange money globally in multiple currencies easily, quickly and safely with great rates and low fees.</h2>
+                                <div class="boot">
+                                    <button class="more">Learn More</button>
+                                    <p class="icon  hover:translate-x-2 transition-transform"> &#10132;</p>
+                                </div>
+                         </div>
+                    </div>
+                </div>
+                    <div class="figo">
+                        <div class="coco">
+                            <div class="mock">
+                            <div class="flat">
+                                     <img class="app" src="../src/images/flaticon-removebg-preview.png" alt="">
+                                <div>
+                                    <h3 class="kol">Payment</h3>
+                                    <h1 class="lambo">API</h1>
+                                </div>
+                            </div>
+                                <p class="api">It will manage customer's Pay Money experience by integrating our seamless API interface within your website.</p>
+                            </div>
+                            <div class="mock">
+                                <div class=" flat">
+                                    <img class="app" src="../src/images/btc_img-removebg-preview.png" alt="">
+                                    <div>
+                                    <h3 class="kol">Currency</h3>
+                                    <h1 class="lambo">Exchange</h1>
+                                    </div>
+                                </div>
+                                <p class="way">Exchange from one currency to another is a very simple & quick way. Crypto currency also supported.</p>
+                            </div>
+                        </div>
+                        <div class="line rotate-90 absolute max-sm:hidden">_________________________________________________________________________________</div>
+                        <div class="line  absolute max-sm:hidden">__________________________________________________________________________________________</div>
+                        <div class="cool">
+                                <div class="mock">
+                                    <div class="flat">
+                                        <img class="app" src="../src/images/bag_btc-removebg-preview.png" alt="">
+                                    <div>
+                                        <h3 class="kol">Online</h3>
+                                        <h1 class="lambo">Payment</h1>
+                                    </div>
+                                    </div>
+                                    <p class="credit">Whether it is credit, debit or bank account you can pay in your preferred channel or method.</p>
+                                </div>
+                                <div class="mock">
+                                    <div class="flat">
+                                        <img class="app" src="../src/images/dollar_img-removebg-preview.png" alt="">
+                                        <div>
+                                            <h3 class="kol">Payment</h3>
+                                            <h3 class="lambo">Request</h3>
+                                        </div>
+                                    </div>
+                                    <p class="person">By these systems now you can request for payment from one person to another, within seconds.</p>
+                                </div>   
+                        </div>
+                    </div>
+         </div>
+                <div class="allimg">
+                    <img class="app" src="../src/images/paypal-removebg-preview.png" alt="">
+                    <img class="app" src="../src/images/visa_img-removebg-preview.png" alt="">
+                    <img class="app" src="../src/images/master_img-removebg-preview.png" alt="">
+                    <img class="app" src="../src/images/coin-removebg-preview.png" alt="">
+                    <img class="app" src="../src/images/strip.img-removebg-preview.png" alt="">
+                </div>
+    </section>
+    <section class="benefit">
+        <div class="our">
+            <h3 class="kol">OUR BENEFITS</h3>
+            <h1 class="us">REASONS TO CHOOSE US</h1>
+            <img src="../src/images/icons8-minus-64.png" alt="">
+        </div>
+        <div class="ball">
+            <div class="system hover:-translate-y-5 transition-transform">
+               <div class="flow">
+                <img class="remove" src="../src/images/j.images-removebg-preview.png" alt="">
+                 <div >
+                    <h4 class="kol">Low</h4>
+                    <h4 class="lam">Cost</h4>
+                 </div>
+               </div>
+                <p class="west">A built in system with the lowest possible cost that energizes customer to grab it.</p>
+            </div>
+            <div class="system hover:-translate-y-5 transition-transform">
+               <div class="flow">
+                <img class="remove" src="../src/images/c.images-removebg-preview.png" alt="">
+                <div>
+                    <h4 class="kol">Easy</h4>
+                    <h4 class="lam">Process</h4>
+                </div>
+               </div>
+                <p class="grab">Easily processable and maintainable system that allows you to process and track records.</p>
+            </div>
+            <div class="system hover:-translate-y-5 transition-transform">
+                 <div class="flow">
+                    <img class="remove" src="../src/images/s.images-removebg-preview.png" alt="">
+                   <div>
+                    <h4 class="kol">Faster</h4>
+                    <h4 class="lam">Payment</h4>
+                   </div>
+                 </div>
+                <p class="make">Make payment from one corner of the world to another in just a few seconds. Making payment is very easy and fast.</p>
+            </div>
+            <div class="system hover:-translate-y-5 transition-transform">
+               <div class="flow">
+                <img class="remove" src="../src/images/b.images-removebg-preview.png" alt="">
+                 <div>
+                    <h4 class="kol">Secure</h4>
+                    <h4 class="lam">$ Safe</h4>
+                 </div>
+               </div>
+                <p class="data">Customers data security is the first priority. Make your transactions safe, sound and secure.</p>
+            </div>
+        </div>
+    </section>
+    <section class="proof">
+        <div class="gog">
+            <h3 class="kol">SOLUTIONS</h3>
+            <h1 class="lambo">SERVICES WE PROVIDE</h1>
+            <img src="../src/images/icons8-minus-64.png" alt="">
+        </div>
+        <div class="blog">
+            <div class="empty">
+                <div class="moblie">
+                    <img src="../src/images/online-shop.png" alt="">
+                    <h2>E-Commerce</h2>
+                    <p class="add">Easily create your own store and add products. A complete e-commerce with maintainability and efficiency to make an organized store for you.</p>
+                </div>
+                <div class="moblie">
+                    <img src="../src/images/booking.png" alt="">
+                    <h2>E-Booking</h2>
+                    <p class="ali">Allow your customers to make payment for bookings or appointments in a quick, easy and secured process that suits them the most.</p>
+                </div>
+                <div class="moblie">
+                    <img src="../src/images/cryptocurrency.png" alt="">
+                    <h2>Crypto Payment</h2>
+                    <p class="add">A powerful solution that allows your customers to make payment using crypto coins including Bitcoin, Litecoin, Dogecoin and many more.</p>
+                </div>
+            </div>
+             <div class="empty">
+                <div class="moblie">
+                    <img src="../src/images/checkout-removebg-preview.png" alt="">
+                    <h2>Mobile Recharge</h2>
+                    <p class="alo">Easily top-up airtime and data on the worlds leading mobile operators and makes payments using any of their wallets on the system.</p>
+                </div>
+                <div class="moblie">
+                    <img src="../src/images/party-removebg-preview.png" alt="">
+                    <h2>Event Management</h2>
+                    <p class="aaa">Do not hesitate to compete with a lot of events. A beautiful and easily trackable event management is provided for making your tasks get done easier.</p>
+                </div>
+                <div class="moblie">
+                    <img src="../src/images/clerk.png" alt="">
+                    <h2>Instant Onboarding</h2>
+                    <p class="alo">Merchants can get payments instantly from anywhere, anytime without any hassle. A simple and better way to expand your business.</p>
+                </div>
+             </div>
+        </div>
+            <div class="gog">
+                <h3 class="kol">THE PROCESS</h3>
+                <h1 class="lambo">HOW DOES IT WORK?</h1>
+                <img src="../src/images/icons8-minus-64.png" alt="">
+            </div>
+           <div class="allow">
+                <div class="toge">
+                    <div class="soeasy">
+                        <h1>1</h1>
+                        <h2>Create Account</h2>
+                        <p class="ex">Provide your credentials, create your own account and explore. Creating account is so easy.</p>
+                    </div>
+                    <div class="amount">
+                        <h1>2</h1>
+                        <h2 class="nun">Send or Request Amount</h2>
+                        <p class="ex2">Send or request any amount to your preferred one within seconds. Just search the desired one and send or request for money.</p>
+                    </div>
+                </div>
+                <div class="toge">
+                    <div class="soeasy">
+                        <h1>3</h1>
+                        <h2 class="nun">Select Payment Method</h2>
+                        <p class="ex">Providing you multiple options to pay according to your desired payment method such as PayPal, Stripe, CoinPayments and many more.</p>
+                    </div>
+                    <div class="mation">
+                        <h1>4</h1>
+                        <h2>Confirmation</h2>
+                        <p class="exx">After doing all these steps, just confirm with your preference and that's it. Welcome to successfull transaction</p>
+                    </div>
+                </div>
+           </div>
+            <div class="crypto">
+                <div class="buy">
+                   <div>
+                        <h3 class="kol">FOR THE MINERS</h3>
+                        <h1 class="exchange">WE INTRODUCE CRYPTO EXCHANGE</h1>
+                        <img src="../src/images/icons8-minus-64.png" alt="">
+                   </div>
+                    <p class="now">Now you can buy, sell or exchange crypto to crypto or fiat to crypto. Our crypto exchange platforms brings all the latest features and security to uplift your crypto currency business and keep on mining.</p>
+                   <div class="boot">
+                        <button class="more">Vist Crypto</button>
+                        <p class="icon hover:translate-x-2 transition-transform">&#10132;</p>
+                   </div>
+                </div>
+                   <img class="tan " src="../src/images/rectangle.png" alt="">
+            </div>
+    </section>
+    <section>
+      <div class="cover">
+            <div class="gog">
+                <h3 class="kol">WE GOT YOU COVERED</h3>
+                <h1 class="lambo">FREQUENTLY ASKED QUESTIONS</h1>
+                <img src="../src/images/icons8-minus-64.png" alt="">
+            </div>
+             <div class="cricle">
+                <div class="hang">
+                   <div class="tos ads">
+                        <h1 class="pay" >How Can I Trust Pay Money? </h1>
+                        <button class="py-3 px-3">&#813;</button>
+                   </div>
+                    <h3 class="anim" id="pay1">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</h3>
+                </div>
+                <div class="hang">
+                   <div class="tas ads">
+                    <h1 class="pay" >How dose Pay Money Work?</h1>
+                    <button class="">&#813;</button>
+                   </div>
+                    <h3 class="anim" id="pay2">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</h3>
+                </div>
+                <div class="holl">
+                  <div class="tosh ads">
+                    <h1 class="pay">How Can I Cancel a Transaction?</h1>
+                    <button class="">&#813;</button>
+                  </div>
+                    <h3 class="anim">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</h3>
+                </div>
+                <div class="hole">
+                  <div class="toll ads">
+                    <h1 class="pay">How fast Will My Transaction Be Processed?</h1>
+                    <button class="">&#813;</button>
+                  </div>
+                    <h3 class="anim">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</h3>
+                </div>
+                <div class="hgh">
+                  <div class="tooth ads">
+                    <h1 class="pay">How Can I Cancel I a Transaction?</h1>
+                    <button class="">&#813;</button>
+                  </div>
+                    <h3 class="anim">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</h3>
+                </div>
+                <div class="high">
+                   <div class="trust ads">
+                        <h1 class="pay">What fees Are There Doing An Exchange?</h1>
+                        <button class="">&#813;</button>
+                   </div>
+                    <h3 class="anim">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</h3>
+                </div>
+             </div>
+      </div>
+    </section>
+    <section class="down">
+         <div class="gog">
+            <h3 class="kol">TESTIMONIALS</h3>
+            <h1 class="lambo">REVIEW OF OUR CLIENTS</h1>
+            <img src="../src/images/icons8-minus-64.png" alt="">
+         </div>
+            <div class="mouse">     
+                <div class="renie">
+                    <img class="zoo" src="../src/images/zi.jpg" alt="">
+                     <div class="brown">
+                        <h3 class="love">it is what they claim to be,an all in one payment solution.my everyday useful product i love it</h3>
+                        <div class="mike">
+                            <h2> Renie Jess Brown</h2>
+                            <p>Enterpreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="renie">
+                    <img class="zoo" src="../src/images/di.jpg" alt="">
+                    <div class="brown">
+                        <h3 class="best">One of the Best Money transferring plantform,period!we used pay money for our bussiness and our customer are useing it everyday and haven't face any problem so far.Beside, the techvillage team is pretty talented.</h3>
+                        <div class="mike">
+                            <h2>Ronne Galle</h2>
+                            <p>CTO,Baribazar.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="renie">
+                    <img class="zoo" src="../src/images/mi.jpg" alt="">
+                    <div class="brown">
+                        <h3 class="gate">Full of great features, everything you wouild like to have in a paymwnet gateway. wouildlove it so much if it can tackelwith the big boys. cheers </h3>
+                        <div class="mike">
+                            <h2>Mike Cakuloo</h2>
+                            <p>Technical Lead, Cuber Drive </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="renie">
+                    <img class="zoo" src="../src/images/p.jpg" alt="">
+                    <div class="brown">
+                        <h3 class="temp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</h3>
+                        <div class="mike">
+                            <h2>Marthon Brown</h2>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div> -->
+         </div>
+         <div class="phone">
+             <div class="mobile">
+                   <div class="colo">
+                    <img class="poco" src="../src/images/app-img.png" alt="">
+                    <img class="poco2" src="../src/images/app-img.png" alt="">
+                   </div>
+                    <div class="today">
+                        <div class="app">
+                            <h3 class="kol">DOWNLOAD THE APP</h3>
+                            <h1 class="lambo">Try it on mobile today</h1>
+                            <img src="../src/images/icons8-minus-64.png" alt="">
+                        </div>
+                        <div class="store">
+                            <img class="mymy" src="../src/images/playstore.svg" alt="">
+                            <img class="mymy" src="../src/images/ios.svg" alt="">
+                        </div>
+                    </div>
+              </div>
+         </div>
+    </section>
+    <footer>
+       <div class="foot">
+           <div class="cies">
+                    <img class="log" src="../src/images/1532175849_logo.png" alt="">
+                   <div class="load">
+                        <h2 class="mutiple">Pay Money, a secured online payment gateway that allows payment in multiple currencies easily, safely and securely.</h2>
+                        <h1>Download Our App</h1>
+                   </div>
+                <div class="store">
+                    <img class="kim" src="../src/images/playstore.svg" alt="">
+                    <img class="kim" src="../src/images/ios.svg" alt="">
+                </div>
+          </div>
+          <div class="quick">
+              <h1>Quick Links</h1>
+              <ul>
+                  <li class="usa">Home</li>
+                  <li class="aus">About us</li>
+                  <li class="cana">Portfoilo</li>
+                  <li class="loud">Contact Us</li>
+                  <li class="colo">Developer</li>
+              </ul>
+          </div>
+          <div class="social">
+               <h1>Social Links</h1>
+            <div class="twitter">
+                <img src="../src/images/fb.png" alt="">
+                <img src="../src/images/twitter.png" alt="">
+                <img src="../src/images/link.png" alt="">
+                <img src="../src/images/you.png" alt="">
+            </div>
+          </div>
+       </div>
+        <div class="copy">
+            <p>Copyright © 2024    Pay Money | All Rights Reserved</p>
+         <div class="label">
+            <label class="lang" for="">Language :</label>
+            <select class="select" name="" id="">
+                <option value="">English</option>
+                <option value="">Arabic</option>
+                <option value="">Francais</option>
+            </select>
+         </div>
+        </div>
+    </footer>
+  </main>
+  <script src="../src/index.js"></script>
+</body>
+</html>
