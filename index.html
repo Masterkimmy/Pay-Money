@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pay-money</title>
-    <link rel="stylesheet" href="/src/output.css">
     <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="/src//output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" /> 
@@ -14,13 +14,13 @@
   <main class="overflow-hidden">
     <nav>
         <img class="logo lg:items-center" src="../src/images/1532175849_logo.png" alt="">
-       <div class="home absolute right-0 max-sm:right-0 max-sm:b-0 -top-full  left-0 bg-purple-950 flex flex-col p-5 gap-y-14 md:static md:bg-transparent md:flex-row md:items-center transition-all duration-1000">
-            <ul class="ul flex flex-col gap-y-8 md:flex-row">
+       <div class="home absolute md:static -top-full bg-purple-950 md:bg-tranparent right-0 left-0 flex flex-col md:flex-row items-center justify-center p-5 md:p-0 duration-1000 transition-all md:transition-none">
+            <ul class="ul flex flex-col md:flex-row ">
                 <li class="me">Home</li>
                 <li class="too">Crypto Exchange</li>
                 <li class="pol">Privacy Policy</li>
             </ul>
-            <div onclick="changeTheme()">
+            <div>
                 <img class="sun w-8 h-8" src="../src/images/sun2.png" alt="">
             </div>
             <div class="btn">
@@ -28,7 +28,7 @@
                 <button class="reg">Register</button>
             </div>
         </div>
-        <span class="md:hidden">
+        <span class="md:hidden pl-32">
             <button class="fas fa-bars-staggered text-white" onclick="toogle()"></button>
         </span>
         <span class="hidden max-sm:block">

@@ -191,7 +191,7 @@
     @apply w-[17vw] text-yellow-50 max-sm:w-[76vw];
   }
   .ball {
-    @apply flex justify-center items-center gap-[40px] mb-[10%] mt-[5%] max-sm:flex-col max-sm:mt-0 max-sm:gap-[50px];
+    @apply flex justify-center items-center gap-[40px] mb-[10%] mt-[5%] max-sm:flex-col max-sm:mt-0 max-sm:gap-[0px];
   }
   .mini {
     @apply h-[15vh] bg-blue-800;
