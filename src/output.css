@@ -1331,7 +1331,7 @@ main {
   .ball {
     margin-top: 0px;
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
   }
 }
 
